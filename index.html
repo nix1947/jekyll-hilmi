@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    {% for post in site.posts %}
+    <h1 class="post-title">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        {{ post.title | escape }}
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+      </a>
+    </h1>
+   {% endfor %}
+  </div>
+</div>
+
+<!--TODO: need to add pagination -->

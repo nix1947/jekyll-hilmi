@@ -1,0 +1,136 @@
+/* site wise color */
+/* site primary color: #3498db */
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 20px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 300;
+  color: #555555;
+  margin: 0;
+  padding:0;
+}
+
+body{
+  margin: 0;
+  padding:0;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+}
+p{
+  line-height: 150%;
+}
+a{
+  color: #444444;
+  text-decoration: none;
+}
+
+header{
+  margin-top: 100px;
+  text-align: center;
+}
+
+header .site-title,
+header .site-title:active,
+header .site-title:link
+header .site-title:visited{
+  padding: 6px 10px;
+  color: #FFF;
+  background-color: #3498db;
+}
+
+header .site-title:hover{
+  padding: 8px 10px;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #444444;
+}
+
+.nav-icon{
+  list-style: none;
+}
+
+.nav-icon li{
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.nav-icon li i:hover
+{
+  text-decoration: none;
+  background-color: #444444;
+}
+
+i{
+  background-color: #3498db;
+  color: #FFFFFF;
+  font-size: 400%;
+  padding: 8px 8px;
+  font-weight: 300;
+}
+
+/* can be replaced by gravatar also */
+.site-name{
+  font-weight: 400;
+  font-size: 200%;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profession{
+  color: #3498db;
+  font-weight: 300;
+  font-size: 110%;
+}
+.site-tagline{
+  line-height: 150%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 200;
+  font-size: 120%;
+  color: #555555;
+}
+
+
+.post-title{
+  font-size: 130%;
+  margin: 0;
+  font-weight: 300;
+  word-spacing: 2px;
+  border-bottom: 1px dotted #444444;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.post-title:first-child{
+  margin-top: 50px;
+  border-top: 3px solid #444444;
+}
+
+.post-title:hover{
+    color: #3498db;
+    background-color: #d3e9f7;
+}
+
+
+
+.post-title a{
+  text-decoration: none;
+}
+
+.post-title span{
+  font-weight: 200;
+  font-size: 80%;
+}
+footer{
+  background-color: #303030;
+  padding-bottom: 100px;
+  color: #555555;
+  padding-top: 50px;
+  margin-top: 100px;
+}
